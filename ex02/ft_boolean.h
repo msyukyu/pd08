@@ -6,7 +6,7 @@
 /*   By: dabeloos <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/21 19:22:52 by dabeloos          #+#    #+#             */
-/*   Updated: 2018/08/21 19:42:46 by dabeloos         ###   ########.fr       */
+/*   Updated: 2018/08/23 11:00:57 by dabeloos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # define TRUE 1
 # define FALSE 0
 # define EVEN(X) (X % 2 == 0)
+# define SUCCESS 0
 # include <unistd.h>
 
 typedef int	t_bool;
