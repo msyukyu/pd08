@@ -6,16 +6,16 @@
 /*   By: dabeloos <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/22 09:27:45 by dabeloos          #+#    #+#             */
-/*   Updated: 2018/08/22 09:30:50 by dabeloos         ###   ########.fr       */
+/*   Updated: 2018/08/23 11:03:06 by dabeloos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_POINT_H
 # define FT_POINT_H
 
-typedef struct
+typedef struct	s_point
 {
 	int	x;
 	int	y;
-}		t_point;
+}				t_point;
 #endif
