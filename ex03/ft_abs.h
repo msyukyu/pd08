@@ -6,12 +6,12 @@
 /*   By: dabeloos <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/22 09:27:35 by dabeloos          #+#    #+#             */
-/*   Updated: 2018/08/22 09:27:39 by dabeloos         ###   ########.fr       */
+/*   Updated: 2018/08/23 11:02:11 by dabeloos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
-# define ABS(Value) (Value = (Value < 0) ? -1 * Value : Value)
+# define ABS(Value) ((Value < 0) ? -Value : Value)
 
 #endif
